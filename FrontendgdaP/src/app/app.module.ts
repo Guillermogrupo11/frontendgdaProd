@@ -14,6 +14,7 @@ import { LoginComponent } from './components/login/login.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { SocialComponent } from './components/social/social.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SocialComponent } from './components/social/social.component';
     LoginComponent,
     EducacionComponent,
     ExperienciaComponent,
-    SocialComponent
+    SocialComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
