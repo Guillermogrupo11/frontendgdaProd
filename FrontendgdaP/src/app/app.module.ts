@@ -13,6 +13,7 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { LoginComponent } from './components/login/login.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     ProyectoComponent,
     LoginComponent,
     EducacionComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
