@@ -13,7 +13,7 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { LoginComponent } from './components/login/login.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-import { SocialComponent } from './components/social/social.component';
+
 import { BannerComponent } from './components/banner/banner.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -30,7 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     EducacionComponent,
     ExperienciaComponent,
-    SocialComponent,
+
     BannerComponent
   ],
   imports: [
