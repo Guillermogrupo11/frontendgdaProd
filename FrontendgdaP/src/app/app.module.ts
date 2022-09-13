@@ -16,6 +16,7 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { BannerComponent } from './components/banner/banner.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { interceptorProvider } from './service/interceptor-service';
 
 
 @NgModule({
@@ -41,7 +42,9 @@ import { HttpClientModule } from '@angular/common/http';
     NgCircleProgressModule.forRoot({}),
 
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
