@@ -17,6 +17,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { interceptorProvider } from './service/interceptor-service';
     LoginComponent,
     EducacionComponent,
     ExperienciaComponent,
-    BannerComponent
+    BannerComponent,
+    NewExperienciaComponent
   ],
   imports: [
     BrowserModule,
