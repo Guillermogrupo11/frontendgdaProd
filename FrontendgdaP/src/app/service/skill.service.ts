@@ -10,7 +10,7 @@ import { Skill } from '../model/skill';
 })
 export class SkillService {
   URL = environment.URL + 'skill/';
-
+  //URL = 'http://localhost:8080/skill/'
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Skill[]>{
@@ -30,6 +30,6 @@ export class SkillService {
   }
 
   public delete(id: number): Observable<any>{
-    return this.httpClient.delete(this.URL + `delete/${id}`);
+    return this.httpClient.delete(this. URL + `delete/${id}`);
   }
 }
