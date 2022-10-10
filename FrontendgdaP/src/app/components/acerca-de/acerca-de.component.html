@@ -1,6 +1,11 @@
 <div class="row">
+
+    <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar Persona
+    </button>
+
   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-      <img src="../../../assets/foto-guillermo.jpg" class="img-fluid" id="fotodeperfil">
+      <img src="{{persona.img}}" class="img-fluid" id="fotodeperfil">
   </div>
   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
   <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
@@ -9,9 +14,7 @@
   <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
       <span>
           <h1>Acerca de mí</h1>
-          <p>Guillermo, vivo en Capital Federal, soy casado y tengo una hija. En los distintos trabajos que he desarrollado,
-             aprendí los distintos conocimientos que poseo. Las experiencias de vida me dejaron tecnicas sobre coordinación y convivencia de grupos de personas.
-             En resumen, puedo realizar diversas tareas a la vez, estando enfocado en trabajar en equipo, etc </p>
+          <p>{{persona.descripcion}} </p>
 
       </span>
   </div>
