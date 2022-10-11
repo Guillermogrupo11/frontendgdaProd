@@ -23,8 +23,16 @@ export class EditAcercaDeComponent implements OnInit {
       }
     )
   }
-onUpdate(){
-
+onUpdate(): void{
+  const id = this.activatedRouter.snapshot.params['id'];
+  this.personaService.update(id, this.persona).subscribe(
+    data => {
+      this.router.navigate(['']);
+    }, err => {
+      alert("Error al modificar la educacion");
+      this.router.navigate(['']);
+    }
+  )
 }
 uploadImage($event: any){
 
