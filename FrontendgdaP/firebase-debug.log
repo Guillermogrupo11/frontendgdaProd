@@ -67,3 +67,39 @@ Before we get started, keep in mind:
 [debug] [2022-10-11T01:08:39.545Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
 [debug] [2022-10-11T01:08:39.895Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
 [debug] [2022-10-11T01:08:39.895Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:16.643Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:16.986Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:16.986Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:19.032Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:19.355Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:19.355Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:20.106Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:20.423Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:20.424Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:20.698Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:21.016Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:21.016Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:21.661Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:21.985Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:21.986Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:22.666Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:23.005Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:23.006Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:23.251Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:23.569Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:23.570Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:24.868Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:25.177Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:25.177Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:30.635Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:30.968Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:30.974Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:30.975Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:31.132Z] >>> [apiv2][query] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:31.293Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:31.293Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:31.329Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-10-11T01:10:31.441Z] <<< [apiv2][status] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:31.441Z] <<< [apiv2][body] GET https://api.github.com/repos/Guillermogrupo11/frontendgdaProd/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-11T01:10:31.635Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-10-11T01:10:31.636Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
