@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { persona } from 'src/app/model/persona.model';
 import { PersonaService } from 'src/app/service/persona.service';
 
@@ -10,13 +10,13 @@ import { PersonaService } from 'src/app/service/persona.service';
 })
 export class EditAcercaDeComponent implements OnInit {
   persona: persona= null;
-  constructor(private activatedRouter: ActivatedRoute, private personaService: PersonaService   ) { }
+  constructor(private activatedRouter: ActivatedRoute, private personaService: PersonaService, private router: Router  ) { }
 
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
-    this.educacionS.detail(id).subscribe(
+    this.personaService.detail(id).subscribe(
       data =>{
-        this.educacion = data;
+        this.persona = data;
       }, err =>{
          alert("Error al modificar");
          this.router.navigate(['']);
